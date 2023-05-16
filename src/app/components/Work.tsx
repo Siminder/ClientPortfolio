@@ -32,30 +32,33 @@ const Work = () => {
   ]);
 
   return (
-    <div id="work-experience"className="bg-[#1e2941] flex justify-center items-center p-0 h-screen w-full">
-      <div className="w-10/12">
+    <div id="work-experience" className="bg-[#1e2941] p-4">
+      <div className="container mx-auto">
         <h3 className="text-2xl font-semibold text-white mb-10">Work</h3>
-
+  
         {workItems.map((work, index) => (
           <div className="flex items-start mb-8" key={index}>
-           
-            <Image
-              src={work.picture}
-              alt={work.companyName}
-              className="w-10 h-10 bg-blue-100 rounded-full flex-shrink-0"
-            />
-            <div className="ml-4">
+            <div className="w-10 h-10 bg-blue-100 rounded-full flex-shrink-0 relative">
+              <Image
+                src={work.picture}
+                alt={work.companyName}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
+            <div className="ml-4 flex-1">
               <h4 className="text-lg font-semibold text-white mb-1">{work.companyName}</h4>
-              <time className="text-gray-400">{work.date}</time>
-              <p className="text-gray-300 mt-2">{work.description}</p>
+              <time className="text-gray-400 text-base">{work.date}</time>
+              <p className="text-gray-300 mt-2 text-base">{work.description}</p>
             </div>
           </div>
         ))}
-
-        <hr className="border-white mt-[10rem]" />
+  
+        <hr className="border-white mt-10" />
       </div>
     </div>
   );
-};
+        }
 
 export default Work;

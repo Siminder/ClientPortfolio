@@ -30,7 +30,7 @@ const Projects = () => {
       id: '3',
       title: 'My Own Website',
       image: website,
-      description: "I created a vinyl record website using HTML, CSS, and JavaScript. The home page featured genre tabs, a music video, and business details. Album pages displayed cover images, release dates, track lists, and prices. Users could listen to song samples and visit the band's official website.  "
+      description: "I developed a vinyl record website using HTML, CSS, and JavaScript. The home page featured genre tabs, a music video, and business details. Album pages displayed cover images, release dates, track lists, and prices. Users could listen to song samples and visit the band's official website. The form page collected contact information, comments, and genre preferences. This project showcased my web development abilities and passion for vinyl records."
     },
     // Add more project data as needed
   ];
