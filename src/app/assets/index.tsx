@@ -1,4 +1,4 @@
-import rover from './rover.png';
+import rover from './Rover.png';
 import website from './Website.jpg'
 import desktop from './desktop.png'
 import Nasa from './Nasa.png'
