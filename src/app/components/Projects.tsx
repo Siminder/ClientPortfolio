@@ -7,8 +7,7 @@ import {
   desktop,
 } from '../assets';
 
-interface Project {
-}
+interface Project {}
 
 
 
@@ -32,6 +31,7 @@ const Projects = () => {
       image: website,
       description: "I developed a vinyl record website using HTML, CSS, and JavaScript. The home page featured genre tabs, a music video, and business details. Album pages displayed cover images, release dates, track lists, and prices. Users could listen to song samples and visit the band's official website. The form page collected contact information, comments, and genre preferences. This project showcased my web development abilities and passion for vinyl records."
     },
+    
     // Add more project data as needed
   ];
 
@@ -53,7 +53,7 @@ const Projects = () => {
             />
           </div>
           <h3 className="mt-4 text-lg md:text-xl font-semibold text-white">{project.title}</h3>
-          <p className="mt-2 text-gray-600 text-sm md:text-base">{project.description}</p>
+          <p className="mt-2 text-white text-sm md:text-base">{project.description}</p>
         </div>
       ))}
       

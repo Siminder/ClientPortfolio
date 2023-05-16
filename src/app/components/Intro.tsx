@@ -10,13 +10,11 @@ const About: FC<AboutProps> = () => {
       <div className="container mt-[20rem] text-white">
         <div className="flex flex-col items-center md:flex-row md:items-start">
           <div className="md:mr-8">
-            <h2 className="text-4xl mt-8 md:mt-0 font-bold">About Me</h2>
-            <p className="text-lg mt-4">
-              Welcome to my online Portfolio. My name is Taylor Sweet and I have
-              a Bachelor degree in Computer and Information Technology as well
-              as an Associate degree in Teaching - Secondary Education. I am
-              passionate about technology and would like to have a career in
-              cybersecurity or tech support.
+            <h2 className="text-4xl mt-8 md:mt-0 font-bold">Hello! My name is Taylor!</h2>
+            <p className="text-lg mt-4 ">
+            I am currently an IT Tutor as well as an Technical Support intern located in the Rio Grande Valley. 
+         <p className='break-normal'>  I’m passionate about cyber security and am currently working towards getting my CompTia Security+ certification. </p>
+         <p className='break-normal'> To contact me, feel free to click on the contact option at the top of the page to connect with me.</p>
             </p>
           </div>
           <div className="mt-8 md:mt-0">
